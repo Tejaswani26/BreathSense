@@ -1,0 +1,109 @@
+{
+  "test": {
+    "acc": 0.8109965635738832,
+    "f1_macro": 0.3717223311902946,
+    "f1_weighted": 0.8055182030977638
+  },
+  "labels": [
+    "Asthma",
+    "COPD",
+    "Heart failure",
+    "Lung fibrosis",
+    "Normal",
+    "Pneumonia"
+  ],
+  "confusion_matrix": [
+    [
+      6,
+      3,
+      2,
+      0,
+      8,
+      0
+    ],
+    [
+      4,
+      212,
+      0,
+      0,
+      8,
+      0
+    ],
+    [
+      2,
+      0,
+      1,
+      0,
+      8,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      6,
+      6,
+      0,
+      0,
+      15,
+      0
+    ],
+    [
+      0,
+      3,
+      1,
+      0,
+      2,
+      2
+    ]
+  ],
+  "confusions": [
+    {
+      "true": "Heart failure",
+      "most_confused_as": "Normal",
+      "count": 8,
+      "support": 11,
+      "rate": 0.7272727272727273
+    },
+    {
+      "true": "Lung fibrosis",
+      "most_confused_as": "Asthma",
+      "count": 1,
+      "support": 2,
+      "rate": 0.5
+    },
+    {
+      "true": "Asthma",
+      "most_confused_as": "Normal",
+      "count": 8,
+      "support": 19,
+      "rate": 0.42105263157894735
+    },
+    {
+      "true": "Pneumonia",
+      "most_confused_as": "COPD",
+      "count": 3,
+      "support": 8,
+      "rate": 0.375
+    },
+    {
+      "true": "Normal",
+      "most_confused_as": "Asthma",
+      "count": 6,
+      "support": 27,
+      "rate": 0.2222222222222222
+    },
+    {
+      "true": "COPD",
+      "most_confused_as": "Normal",
+      "count": 8,
+      "support": 224,
+      "rate": 0.03571428571428571
+    }
+  ]
+}

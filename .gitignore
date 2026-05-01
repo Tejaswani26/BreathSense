@@ -1,0 +1,41 @@
+# Environment files (IMPORTANT)
+.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Model files (optional)
+*.h5
+*.pt
+*.pth
+
+# Logs
+*.log
+
+# Node (if React)
+node_modules/
+
+# Build folders
+build/
+dist/
+
+# Java (if Spring Boot)
+target/
+*.class
+
+# IDE
+.vscode/
+.idea/
+
+data/
+models/
